@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Customer Account" verbose="1" preserve-order="true" thread-count="1" parallel="tests">
+    <test name="Connect To Mambu">
+        <classes>
+            <class name="test.CustomerAccount.ConnectToMambu"></class>
+        </classes>
+    </test>
+</suite>

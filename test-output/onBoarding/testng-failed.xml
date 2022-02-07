@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [test.onBoarding]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Login(failed)">
+    <parameter name="url" value="https://dev.bis.hijra.id/"/>
+    <classes>
+      <class name="test.onBoarding.Login">
+        <methods>
+          <include name="logout"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.onBoarding.Login -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [test.onBoarding] -->

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Business and Marketing" verbose="1" preserve-order="true" thread-count="1" parallel="tests">
+    <test name="Content Dashboard">
+        <classes>
+            <class name="test.BusinessAndMarketing.ContentDashboard"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Admin Activity Record" verbose="1" preserve-order="true" thread-count="1" parallel="tests">
+    <test name="Admin Activity Record">
+        <classes>
+            <class name="test.AdminActivityRecord.AdminActivityRecord"></class>
+        </classes>
+    </test>
+</suite>

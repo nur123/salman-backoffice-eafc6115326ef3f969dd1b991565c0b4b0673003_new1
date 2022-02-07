@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test.onBoarding" verbose="1" preserve-order="true" thread-count="1" parallel="tests">
+    <test name="Login">
+        <parameter name="url" value="https://dev.bis.hijra.id/"></parameter>
+        <classes>
+            <class name="test.onBoarding.Login"></class>
+        </classes>
+    </test>
+</suite>
